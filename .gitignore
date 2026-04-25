@@ -1,7 +1,32 @@
+# Python virtual environment
 venv/
 __pycache__/
+
+# Python cache files
 *.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Environment variables
 .env
-data/
-*.joblib
-*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build files
+build/
+dist/
+*.egg-info/
